@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6e7c503a6d57e6bbe9ebc3e619046edf",
+    "content-hash": "597d70dc4ce51f90ed5784fc43f3a6bc",
     "packages": [
         {
             "name": "amzn/amazon-pay-and-login-magento-2-module",
@@ -3953,12 +3953,13 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:icubeus/magento2-graphql.git",
-                "reference": "7ce0441d8c27cbd58bfea527a6e48c9d7e4bb222"
+                "reference": "bfeaf92010182b885c19dc2dd497c58ff37eb1be"
             },
             "require": {
                 "icubeus/magento2-citykecamatan": "^2.0",
                 "icubeus/magento2-instantdelivery": "dev-master",
                 "icubeus/magento2-notification": "dev-master",
+                "icubeus/magento2-payment": "dev-master",
                 "icubeus/magento2-smstada": "dev-master",
                 "icubeus/magento2-swiftomschannel": "^2.1",
                 "icubeus/magento2-veritranspayment": "^2.0"
@@ -3978,9 +3979,13 @@
                 "icubeus/module-contact-us-graph-ql": "self.version",
                 "icubeus/module-graphql": "self.version",
                 "icubeus/module-instant-delivery-graph-ql": "self.version",
+                "icubeus/module-ipay88-payment-graph-ql": "self.version",
+                "icubeus/module-newsletter-graph-ql": "self.version",
                 "icubeus/module-notification-graph-ql": "self.version",
                 "icubeus/module-owl-carousel-slider-graph-ql": "self.version",
                 "icubeus/module-pickup-graph-ql": "self.version",
+                "icubeus/module-promo-graph-ql": "self.version",
+                "icubeus/module-quote-graph-ql": "self.version",
                 "icubeus/module-review-graph-ql": "self.version",
                 "icubeus/module-sales-graph-ql": "self.version",
                 "icubeus/module-sms-otp-graph-ql": "self.version",
@@ -4017,7 +4022,11 @@
                     "src/module-ves-menu-graph-ql/registration.php",
                     "src/module-store-locator-graph-ql/registration.php",
                     "src/module-am-extrafee-graph-ql/registration.php",
-                    "src/module-swatches-graph-ql/registration.php"
+                    "src/module-swatches-graph-ql/registration.php",
+                    "src/module-Ipay88-payment-graph-ql/registration.php",
+                    "src/module-promo-graph-ql/registration.php",
+                    "src/module-newsletter-graph-ql/registration.php",
+                    "src/module-quote-graph-ql/registration.php"
                 ],
                 "psr-4": {
                     "Icube\\AwBlogGraphQl\\": "src/module-aw-blog-graph-ql",
@@ -4044,7 +4053,11 @@
                     "Icube\\VesMenuGraphQl\\": "src/module-ves-menu-graph-ql",
                     "Icube\\StoreLocatorGraphQl\\": "src/module-store-locator-graph-ql",
                     "Icube\\AmastyExtraFeeGraphQl\\": "src/module-am-extrafee-graph-ql",
-                    "Icube\\SwatchesGraphQl\\": "src/module-swatches-graph-ql"
+                    "Icube\\SwatchesGraphQl\\": "src/module-swatches-graph-ql",
+                    "Icube\\Ipay88PaymentGraphQl\\": "src/module-Ipay88-payment-graph-ql",
+                    "Icube\\PromoGraphQl\\": "src/module-promo-graph-ql",
+                    "Icube\\NewsletterGraphQl\\": "src/module-newsletter-graph-ql",
+                    "Icube\\QuoteGraphQl\\": "src/module-quote-graph-ql"
                 }
             },
             "license": [
@@ -4063,7 +4076,7 @@
                 "magento",
                 "magento2"
             ],
-            "time": "2020-09-24T10:21:32+00:00"
+            "time": "2020-12-01T06:49:14+00:00"
         },
         {
             "name": "icubeus/magento2-indonesianlanguage",
