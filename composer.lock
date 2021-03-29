@@ -3845,15 +3845,16 @@
         },
         {
             "name": "icubeus/magento2-checkout",
-            "version": "3.5.0",
+            "version": "3.5.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:icubeus/magento2-checkout.git",
-                "reference": "fe390ef42a0db77fb9325d7f2d79020650560fb3"
+                "reference": "6e8fb119d97f19f6b2e0542a901c5983b6f34b8c"
             },
             "replace": {
                 "icubeus/module-checkoutpg": "self.version",
                 "icubeus/module-oscoverridecheckout": "self.version",
+                "icubeus/module-paymentinformation": "self.version",
                 "icubeus/module-pwa-checkout": "self.version",
                 "icubeus/module-shipmentpg": "self.version"
             },
@@ -3863,13 +3864,15 @@
                     "src/module-checkoutpg/registration.php",
                     "src/module-oscoverridecheckout/registration.php",
                     "src/module-pwa-checkout/registration.php",
-                    "src/module-shipmentpg/registration.php"
+                    "src/module-shipmentpg/registration.php",
+                    "src/module-paymentinformation/registration.php"
                 ],
                 "psr-4": {
                     "Icube\\Oscoverridecheckout\\": "src/module-oscoverridecheckout",
                     "Icube\\Checkoutpg\\": "src/module-checkoutpg",
                     "Icube\\PwaCheckout\\": "src/module-pwa-checkout",
-                    "Icube\\Shipmentpg\\": "src/module-shipmentpg"
+                    "Icube\\Shipmentpg\\": "src/module-shipmentpg",
+                    "Icube\\PaymentInformation\\": "src/module-paymentinformation"
                 }
             },
             "license": [
@@ -3887,15 +3890,15 @@
                 "magento",
                 "magento2"
             ],
-            "time": "2020-12-09T09:42:48+00:00"
+            "time": "2021-03-25T07:00:32+00:00"
         },
         {
             "name": "icubeus/magento2-citykecamatan",
-            "version": "3.5.0",
+            "version": "3.5.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:icubeus/magento2-citykecamatan.git",
-                "reference": "ba950d9ba3e1f592c24dc417fd21e3f35b4c107d"
+                "reference": "b78dde217a0076b949354e7ceef849602ec8c0af"
             },
             "type": "magento2-module",
             "autoload": {
@@ -3916,7 +3919,7 @@
                 "kecamatan",
                 "magento 2"
             ],
-            "time": "2020-12-09T11:14:13+00:00"
+            "time": "2021-03-26T08:45:22+00:00"
         },
         {
             "name": "icubeus/magento2-confirmpayment",
@@ -4150,11 +4153,11 @@
         },
         {
             "name": "icubeus/magento2-notification",
-            "version": "3.5.0",
+            "version": "3.5.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:icubeus/magento2-notification.git",
-                "reference": "20f266c64753d069f53f734679df446dff2ac7ef"
+                "reference": "05323e195f6365dc5531d24316a520a531f06891"
             },
             "require": {
                 "icubeus/magento2-smsgateaway": "^3.5"
@@ -4193,15 +4196,15 @@
                 "magento",
                 "magento2"
             ],
-            "time": "2020-12-09T11:43:37+00:00"
+            "time": "2021-03-23T06:13:20+00:00"
         },
         {
             "name": "icubeus/magento2-payment",
-            "version": "3.5.1",
+            "version": "3.5.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:icubeus/magento2-payment.git",
-                "reference": "07f63a0d044b6c1db777c62700c6d8ba25a0c6f6"
+                "reference": "be7405dad5a55ca66929a26bf261693fa91fb598"
             },
             "replace": {
                 "icubeus/module-ipay88": "self.version"
@@ -4241,7 +4244,7 @@
                 "veritrans",
                 "vt-direct"
             ],
-            "time": "2021-02-05T07:33:00+00:00"
+            "time": "2021-03-24T02:42:47+00:00"
         },
         {
             "name": "icubeus/magento2-queues",
@@ -4286,11 +4289,11 @@
         },
         {
             "name": "icubeus/magento2-rapidflow",
-            "version": "7.2.1",
+            "version": "7.2.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:icubeus/magento2-rapidflow.git",
-                "reference": "5fa4148a015fac7033815bf4905ce47ee96a3bf3"
+                "reference": "49d62f837cb4eeab43970182d2948b0fb3d0b49c"
             },
             "require": {
                 "php": ">=7.0.2"
@@ -4326,7 +4329,7 @@
                 "magento2",
                 "rapidflow"
             ],
-            "time": "2020-03-11T09:15:45+00:00"
+            "time": "2021-03-03T09:37:21+00:00"
         },
         {
             "name": "icubeus/magento2-shippingbase",
@@ -4598,11 +4601,11 @@
         },
         {
             "name": "icubeus/magento2-veritranspayment",
-            "version": "3.5.0",
+            "version": "3.5.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:icubeus/magento2-veritranspayment.git",
-                "reference": "df975e616ec1ec90c644b09aa7413d6fbe245004"
+                "reference": "722d734d841d778d47192b2c96693c7e997542ce"
             },
             "replace": {
                 "icubeus/module-snap": "self.version",
@@ -4651,7 +4654,7 @@
                 "veritrans",
                 "vt-direct"
             ],
-            "time": "2020-12-09T11:49:04+00:00"
+            "time": "2021-03-29T04:14:13+00:00"
         },
         {
             "name": "justinrainbow/json-schema",
@@ -5198,6 +5201,7 @@
                 "console",
                 "laminas"
             ],
+            "abandoned": "laminas/laminas-cli",
             "time": "2019-12-31T16:31:45+00:00"
         },
         {
@@ -23197,12 +23201,12 @@
             "version": "1.9.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/webmozart/assert.git",
+                "url": "https://github.com/webmozarts/assert.git",
                 "reference": "bafc69caeb4d49c39fd0779086c03a3738cbb389"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/assert/zipball/bafc69caeb4d49c39fd0779086c03a3738cbb389",
+                "url": "https://api.github.com/repos/webmozarts/assert/zipball/bafc69caeb4d49c39fd0779086c03a3738cbb389",
                 "reference": "bafc69caeb4d49c39fd0779086c03a3738cbb389",
                 "shasum": ""
             },
