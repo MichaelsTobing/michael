@@ -1,16 +1,16 @@
 {
-    "name": "lillik/magento2-price-decimal",
-    "description": "Magento 2 Price Decimal Precision",
+    "name": "easymart/magento2-price-decimal",
+    "description": "Magento 2 Price Decimal, hide `.00` but show `.10`. So that $8.00 becomes $8 and $8.90 becomes $8.90",
     "keywords": [
         "magento2"
     ],
     "license": "Apache-2.0",
     "type": "magento2-module",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "authors": [
         {
-            "name": "Lilian Codreanu",
-            "email": "lilian.codreanu@gmail.com",
+            "name": "Adarsh Khatri",
+            "email": "me.adarshkhatri@gmail.com",
             "role": "Developer"
         }
     ],
@@ -26,7 +26,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "Lillik\\PriceDecimal\\": ""
+            "EasyMart\\PriceDecimal\\": ""
         }
     }
 }

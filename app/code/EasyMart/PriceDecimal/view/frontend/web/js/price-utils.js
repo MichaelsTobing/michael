@@ -51,7 +51,7 @@ define([
         groupSymbol = format.groupSymbol === undefined ? '.' : format.groupSymbol;
         groupLength = format.groupLength === undefined ? 3 : format.groupLength;
         pattern = format.pattern || '%s';
-
+		
         if (isShowSign === undefined || isShowSign === true) {
             s = amount < 0 ? '-' : isShowSign ? '+' : '';
         } else if (isShowSign === false) {
@@ -66,7 +66,7 @@ define([
             10
         ) + '';
         pad = i.length < integerRequired ? integerRequired - i.length : 0;
-
+		
         i = stringPad('0', pad) + i;
 
         j = i.length > groupLength ? i.length % groupLength : 0;
@@ -77,10 +77,23 @@ define([
         // Result is '0.-0' :(
 
         am = Number(Math.round(Math.abs(amount - i) + 'e+' + precision) + ('e-' + precision));
+
+		/* 
+		 * Added by Adarsh Khatri @me.adarshkhatri@gmail.com 
+		 */
+		if(am > 0 && am < 1){
+			//use default
+		} else{
+			precision = 0;
+		}
+		/*
+		 * Ended addition 
+		 */
+		 
         r = (j ? i.substr(0, j) + groupSymbol : '') +
             i.substr(j).replace(re, '$1' + groupSymbol) +
             (precision ? decimalSymbol + am.toFixed(precision).replace(/-/, 0).slice(2) : '');
-
+			
         return pattern.replace('%s', r).replace(/^\s\s*/, '').replace(/\s\s*$/, '');
     }
 

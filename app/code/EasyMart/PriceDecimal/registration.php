@@ -1,13 +1,14 @@
 <?php
 /**
  *
- * @package Lillik\PriceDecimal
+ * @package EasyMart\PriceDecimal
  *
- * @author  Lilian Codreanu <lilian.codreanu@gmail.com>
+ * @author  Adarsh Khatri | me.adarshkhatri@gmail.com
+ * @url easymart.com.au
  */
-
+ 
 \Magento\Framework\Component\ComponentRegistrar::register(
     \Magento\Framework\Component\ComponentRegistrar::MODULE,
-    'Lillik_PriceDecimal',
+    'EasyMart_PriceDecimal',
     __DIR__
 );
