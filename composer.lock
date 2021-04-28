@@ -1755,11 +1755,11 @@
         },
         {
             "name": "icubeus/magento2-checkout",
-            "version": "3.5.1",
+            "version": "3.5.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:icubeus/magento2-checkout.git",
-                "reference": "6e8fb119d97f19f6b2e0542a901c5983b6f34b8c"
+                "reference": "a866d8b422aafbb04fbf5dd862046b8920443415"
             },
             "replace": {
                 "icubeus/module-checkoutpg": "self.version",
@@ -1800,7 +1800,7 @@
                 "magento",
                 "magento2"
             ],
-            "time": "2021-03-25T07:00:32+00:00"
+            "time": "2021-04-27T01:50:29+00:00"
         },
         {
             "name": "icubeus/magento2-citykecamatan",
@@ -1862,11 +1862,11 @@
         },
         {
             "name": "icubeus/magento2-graphql",
-            "version": "3.5.2",
+            "version": "3.5.7",
             "source": {
                 "type": "git",
                 "url": "git@github.com:icubeus/magento2-graphql.git",
-                "reference": "bf86958d9efb31f9339527dcefc49aec562950b6"
+                "reference": "017c3e480614cb40271f3d0c90c2eb5a266f441d"
             },
             "require": {
                 "icubeus/magento2-citykecamatan": "^3.5",
@@ -1887,13 +1887,17 @@
                 "icubeus/module-cashback-graph-ql": "self.version",
                 "icubeus/module-catalog-graph-ql": "self.version",
                 "icubeus/module-city-region-graph-ql": "self.version",
+                "icubeus/module-cms-graph-ql": "self.version",
                 "icubeus/module-confirm-payment-graph-ql": "self.version",
                 "icubeus/module-contact-us-graph-ql": "self.version",
+                "icubeus/module-customer-downloadable-graph-ql": "self.version",
                 "icubeus/module-graphql": "self.version",
                 "icubeus/module-instant-delivery-graph-ql": "self.version",
                 "icubeus/module-newsletter-graph-ql": "self.version",
                 "icubeus/module-notification-graph-ql": "self.version",
+                "icubeus/module-order-comment-graph-ql": "self.version",
                 "icubeus/module-owl-carousel-slider-graph-ql": "self.version",
+                "icubeus/module-payment-information-graph-ql": "self.version",
                 "icubeus/module-pickup-graph-ql": "self.version",
                 "icubeus/module-promo-graph-ql": "self.version",
                 "icubeus/module-quote-graph-ql": "self.version",
@@ -1917,8 +1921,10 @@
                     "src/module-brands-graph-ql/registration.php",
                     "src/module-cashback-graph-ql/registration.php",
                     "src/module-catalog-graph-ql/registration.php",
+                    "src/module-order-comment-graph-ql/registration.php",
                     "src/module-city-region-graph-ql/registration.php",
                     "src/module-contact-us-graph-ql/registration.php",
+                    "src/module-customer-downloadable-graph-ql/registration.php",
                     "src/module-confirm-payment-graph-ql/registration.php",
                     "src/module-review-graph-ql/registration.php",
                     "src/module-sales-graph-ql/registration.php",
@@ -1934,9 +1940,11 @@
                     "src/module-store-locator-graph-ql/registration.php",
                     "src/module-am-extrafee-graph-ql/registration.php",
                     "src/module-swatches-graph-ql/registration.php",
+                    "src/module-payment-information-graph-ql/registration.php",
                     "src/module-promo-graph-ql/registration.php",
                     "src/module-newsletter-graph-ql/registration.php",
-                    "src/module-quote-graph-ql/registration.php"
+                    "src/module-quote-graph-ql/registration.php",
+                    "src/module-cms-graph-ql/registration.php"
                 ],
                 "psr-4": {
                     "Icube\\AwBlogGraphQl\\": "src/module-aw-blog-graph-ql",
@@ -1947,6 +1955,8 @@
                     "Icube\\BrandsGraphQl\\": "src/module-brands-graph-ql",
                     "Icube\\CashbackGraphQl\\": "src/module-cashback-graph-ql",
                     "Icube\\CatalogGraphQl\\": "src/module-catalog-graph-ql",
+                    "Icube\\CustomerDownloadableGraphQl\\": "src/module-customer-downloadable-graph-ql",
+                    "Icube\\OrderCommentGraphQl\\": "src/module-order-comment-graph-ql",
                     "Icube\\CityRegionGraphQl\\": "src/module-city-region-graph-ql",
                     "Icube\\ContactUsGraphQl\\": "src/module-contact-us-graph-ql",
                     "Icube\\ConfirmPaymentGraphQl\\": "src/module-confirm-payment-graph-ql",
@@ -1964,9 +1974,11 @@
                     "Icube\\StoreLocatorGraphQl\\": "src/module-store-locator-graph-ql",
                     "Icube\\AmastyExtraFeeGraphQl\\": "src/module-am-extrafee-graph-ql",
                     "Icube\\SwatchesGraphQl\\": "src/module-swatches-graph-ql",
+                    "Icube\\PaymentInformationGraphQl\\": "src/module-payment-information-graph-ql",
                     "Icube\\PromoGraphQl\\": "src/module-promo-graph-ql",
                     "Icube\\NewsletterGraphQl\\": "src/module-newsletter-graph-ql",
-                    "Icube\\QuoteGraphQl\\": "src/module-quote-graph-ql"
+                    "Icube\\QuoteGraphQl\\": "src/module-quote-graph-ql",
+                    "Icube\\CmsGraphQl\\": "src/module-cms-graph-ql"
                 }
             },
             "license": [
@@ -1985,7 +1997,7 @@
                 "magento",
                 "magento2"
             ],
-            "time": "2021-03-31T12:15:11+00:00"
+            "time": "2021-04-27T09:25:30+00:00"
         },
         {
             "name": "icubeus/magento2-indonesianlanguage",
@@ -2015,11 +2027,11 @@
         },
         {
             "name": "icubeus/magento2-instantdelivery",
-            "version": "3.5.1",
+            "version": "3.5.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:icubeus/magento2-instantdelivery.git",
-                "reference": "a0df3f0bb8283679e5db733fb639107758ac2b16"
+                "reference": "cee24409e51eba159441af0b9737a3a423b889aa"
             },
             "replace": {
                 "icubeus/magento2-gosend": "self.version",
@@ -2058,7 +2070,7 @@
                 "pinlocation",
                 "shipping"
             ],
-            "time": "2021-03-31T11:48:38+00:00"
+            "time": "2021-04-28T03:08:29+00:00"
         },
         {
             "name": "icubeus/magento2-notification",
@@ -2113,7 +2125,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:icubeus/magento2-payment.git",
-                "reference": "be7405dad5a55ca66929a26bf261693fa91fb598"
+                "reference": "78d211a8d68abce70fe22d05c22daa9d030d604b"
             },
             "replace": {
                 "icubeus/module-ipay88": "self.version"
@@ -2153,7 +2165,7 @@
                 "veritrans",
                 "vt-direct"
             ],
-            "time": "2021-03-24T02:42:47+00:00"
+            "time": "2021-03-30T07:31:47+00:00"
         },
         {
             "name": "icubeus/magento2-queues",
@@ -2368,11 +2380,11 @@
         },
         {
             "name": "icubeus/magento2-smstada",
-            "version": "3.5.0",
+            "version": "3.5.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:icubeus/magento2-smstada.git",
-                "reference": "8c49982ea0339795379cc501946e0c784ae2d97c"
+                "reference": "2953bd5fffd5ebcec509c4909fd80f337490d5d2"
             },
             "require": {
                 "icubeus/magento2-smsgateaway": "^3.5"
@@ -2411,7 +2423,7 @@
                 "magento",
                 "magento2"
             ],
-            "time": "2020-12-09T11:33:04+00:00"
+            "time": "2021-04-15T07:59:04+00:00"
         },
         {
             "name": "icubeus/magento2-swiftomschannel",
