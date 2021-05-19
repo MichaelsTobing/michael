@@ -1958,11 +1958,11 @@
         },
         {
             "name": "icubeus/magento2-graphql",
-            "version": "3.5.7",
+            "version": "3.5.8",
             "source": {
                 "type": "git",
                 "url": "git@github.com:icubeus/magento2-graphql.git",
-                "reference": "017c3e480614cb40271f3d0c90c2eb5a266f441d"
+                "reference": "642eeecf328ab7af33e24a4245d06589dc3fcafa"
             },
             "require": {
                 "icubeus/magento2-citykecamatan": "^3.5",
@@ -2004,7 +2004,8 @@
                 "icubeus/module-store-locator-graph-ql": "self.version",
                 "icubeus/module-swatches-graph-ql": "self.version",
                 "icubeus/module-ves-menu-graph-ql": "self.version",
-                "icubeus/module-wishlist-graph-ql": "self.version"
+                "icubeus/module-wishlist-graph-ql": "self.version",
+                "icubeus/module-wp-product-label-graph-ql": "self.version"
             },
             "type": "magento2-module",
             "autoload": {
@@ -2040,6 +2041,7 @@
                     "src/module-promo-graph-ql/registration.php",
                     "src/module-newsletter-graph-ql/registration.php",
                     "src/module-quote-graph-ql/registration.php",
+                    "src/module-wp-product-label-graph-ql/registration.php",
                     "src/module-cms-graph-ql/registration.php"
                 ],
                 "psr-4": {
@@ -2074,6 +2076,7 @@
                     "Icube\\PromoGraphQl\\": "src/module-promo-graph-ql",
                     "Icube\\NewsletterGraphQl\\": "src/module-newsletter-graph-ql",
                     "Icube\\QuoteGraphQl\\": "src/module-quote-graph-ql",
+                    "Icube\\WeltPixelLabelGraphQl\\": "src/module-wp-product-label-graph-ql",
                     "Icube\\CmsGraphQl\\": "src/module-cms-graph-ql"
                 }
             },
@@ -2093,7 +2096,7 @@
                 "magento",
                 "magento2"
             ],
-            "time": "2021-04-27T09:25:30+00:00"
+            "time": "2021-05-11T07:05:54+00:00"
         },
         {
             "name": "icubeus/magento2-indonesianlanguage",
@@ -2170,11 +2173,11 @@
         },
         {
             "name": "icubeus/magento2-notification",
-            "version": "3.5.2",
+            "version": "3.5.3",
             "source": {
                 "type": "git",
                 "url": "git@github.com:icubeus/magento2-notification.git",
-                "reference": "71fea4b1f938c646d001e3263e4e19aa7fd4c79c"
+                "reference": "64690f231b9dfae8ce3edc2e0eca3c673b3c5a95"
             },
             "require": {
                 "icubeus/magento2-smsgateaway": "^3.5"
@@ -2213,7 +2216,7 @@
                 "magento",
                 "magento2"
             ],
-            "time": "2021-04-30T10:25:24+00:00"
+            "time": "2021-05-11T07:21:50+00:00"
         },
         {
             "name": "icubeus/magento2-payment",
@@ -2618,11 +2621,11 @@
         },
         {
             "name": "icubeus/magento2-veritranspayment",
-            "version": "3.5.1",
+            "version": "3.5.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:icubeus/magento2-veritranspayment.git",
-                "reference": "722d734d841d778d47192b2c96693c7e997542ce"
+                "reference": "7a95a98ea507bb6422e1833aca728106fed07245"
             },
             "replace": {
                 "icubeus/module-snap": "self.version",
@@ -2671,7 +2674,7 @@
                 "veritrans",
                 "vt-direct"
             ],
-            "time": "2021-03-29T04:14:13+00:00"
+            "time": "2021-05-11T08:36:31+00:00"
         },
         {
             "name": "justinrainbow/json-schema",
