@@ -1,7 +1,7 @@
 <?php
 /**
  * @author Amasty Team
- * @copyright Copyright (c) 2020 Amasty (https://www.amasty.com)
+ * @copyright Copyright (c) 2021 Amasty (https://www.amasty.com)
  * @package Amasty_Base
  */
 
@@ -70,11 +70,10 @@ class Ads
      */
     public function execute(): array
     {
-        if ($cache = $this->cache->load(self::CSV_CACHE_ID)) {
-            return $this->serializer->unserialize($cache);
-        }
+        $cache = $this->cache->load(self::CSV_CACHE_ID);
+        $unserializedCache = $cache ? $this->serializer->unserialize($cache) : null;
 
-        return $this->getFeed();
+        return $unserializedCache ?: $this->getFeed();
     }
 
     /**
