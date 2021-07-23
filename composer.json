@@ -34,7 +34,8 @@
         "icubeus/magento2-veritranspayment": "^3.5",
         "icubeus/magento2-graphql": "^3.5",
         "icubebysirclo/magento2-firebear": "dev-master",
-        "icubeus/magento2-firebase": "^3.5"
+        "icubeus/magento2-firebase": "^3.5",
+        "icubebysirclo/magento2-facebookshop": "^4.0"
     },
     "replace": {
         "klarna/module-core": "*",
@@ -190,6 +191,10 @@
         "icubeus-firebase": {
             "type": "git",
             "url": "git@github.com:icubeus/magento2-firebase.git"
+        },
+        "icubebysirclo-facebookshop": {
+            "type": "git",
+            "url": "git@github.com:icubebysirclo/magento2-facebookshop.git"
         }
     },
     "extra": {

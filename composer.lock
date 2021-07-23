@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b334a4f95bae633744d30014b3c1dc48",
+    "content-hash": "e48b706e5f38ab5bf1994b770fbbc8f0",
     "packages": [
         {
             "name": "astock/stock-api-libphp",
@@ -1395,6 +1395,34 @@
             "time": "2014-10-12T19:18:40+00:00"
         },
         {
+            "name": "icubebysirclo/magento2-facebookshop",
+            "version": "4.0.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:icubebysirclo/magento2-facebookshop.git",
+                "reference": "21393380ccc6025876559013b6862988f490ddd7"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Icube\\FacebookShop\\": ""
+                }
+            },
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "Facebook Shop Integration for Magento",
+            "keywords": [
+                "facebookshop",
+                "magento 2"
+            ],
+            "time": "2021-07-21T09:40:04+00:00"
+        },
+        {
             "name": "icubebysirclo/magento2-firebear",
             "version": "dev-master",
             "source": {
@@ -1437,11 +1465,11 @@
         },
         {
             "name": "icubeus/magento2-advancerate",
-            "version": "3.5.2",
+            "version": "3.5.3",
             "source": {
                 "type": "git",
                 "url": "git@github.com:icubeus/magento2-advancerate.git",
-                "reference": "c8ddbd8e69136d977705021ef526e08ae59261da"
+                "reference": "d4dc77b50a322d3944e10bcace49d1b51820b1f3"
             },
             "type": "magento2-module",
             "autoload": {
@@ -1461,15 +1489,15 @@
                 "advancerate",
                 "magento 2"
             ],
-            "time": "2021-05-31T01:36:27+00:00"
+            "time": "2021-07-21T08:28:15+00:00"
         },
         {
             "name": "icubeus/magento2-checkout",
-            "version": "3.5.3",
+            "version": "3.5.4",
             "source": {
                 "type": "git",
                 "url": "git@github.com:icubeus/magento2-checkout.git",
-                "reference": "be30d4e090ea208ee8f8a02c740d935459f1d49e"
+                "reference": "9c0830bae8c1bc0269bafa05d54c7bb5561c3159"
             },
             "replace": {
                 "icubeus/module-checkoutpg": "self.version",
@@ -1510,15 +1538,15 @@
                 "magento",
                 "magento2"
             ],
-            "time": "2021-06-11T10:14:54+00:00"
+            "time": "2021-07-21T09:46:01+00:00"
         },
         {
             "name": "icubeus/magento2-citykecamatan",
-            "version": "3.5.1",
+            "version": "3.5.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:icubeus/magento2-citykecamatan.git",
-                "reference": "b78dde217a0076b949354e7ceef849602ec8c0af"
+                "reference": "1a317368fd74fb6baf57bfcddac0c757eb2c7ce9"
             },
             "type": "magento2-module",
             "autoload": {
@@ -1539,7 +1567,7 @@
                 "kecamatan",
                 "magento 2"
             ],
-            "time": "2021-03-26T08:45:22+00:00"
+            "time": "2021-07-21T08:36:47+00:00"
         },
         {
             "name": "icubeus/magento2-confirmpayment",
@@ -1616,11 +1644,11 @@
         },
         {
             "name": "icubeus/magento2-graphql",
-            "version": "3.5.10",
+            "version": "3.5.11",
             "source": {
                 "type": "git",
                 "url": "git@github.com:icubeus/magento2-graphql.git",
-                "reference": "e6f5cdc13eaab459710dc9c9f1f09b501ea465a9"
+                "reference": "e298d9af99b39e1bd4d1b636c1810e5a7f9501ec"
             },
             "require": {
                 "icubeus/magento2-citykecamatan": "^3.5",
@@ -1646,6 +1674,7 @@
                 "icubeus/module-confirm-payment-graph-ql": "self.version",
                 "icubeus/module-contact-us-graph-ql": "self.version",
                 "icubeus/module-customer-downloadable-graph-ql": "self.version",
+                "icubeus/module-customer-graph-ql": "self.version",
                 "icubeus/module-graphql": "self.version",
                 "icubeus/module-instant-delivery-graph-ql": "self.version",
                 "icubeus/module-magezon-graph-ql": "self.version",
@@ -1670,7 +1699,8 @@
                 "icubeus/module-wishlist-graph-ql": "self.version",
                 "icubeus/module-wp-cms-block-scheduler-graph-ql": "self.version",
                 "icubeus/module-wp-product-label-graph-ql": "self.version",
-                "icubeus/module-wp-smart-product-tabs-graph-ql": "self.version"
+                "icubeus/module-wp-smart-product-tabs-graph-ql": "self.version",
+                "icubeus/module-wp-thankyou-page-graph-ql": "self.version"
             },
             "type": "magento2-module",
             "autoload": {
@@ -1688,6 +1718,7 @@
                     "src/module-city-region-graph-ql/registration.php",
                     "src/module-contact-us-graph-ql/registration.php",
                     "src/module-customer-downloadable-graph-ql/registration.php",
+                    "src/module-customer-graph-ql/registration.php",
                     "src/module-confirm-payment-graph-ql/registration.php",
                     "src/module-review-graph-ql/registration.php",
                     "src/module-sales-graph-ql/registration.php",
@@ -1714,6 +1745,7 @@
                     "src/module-magezon-graph-ql/registration.php",
                     "src/module-cms-graph-ql/registration.php",
                     "src/module-wp-cms-block-scheduler-graph-ql/registration.php",
+                    "src/module-wp-thankyou-page-graph-ql/registration.php",
                     "src/module-wp-smart-product-tabs-graph-ql/registration.php"
                 ],
                 "psr-4": {
@@ -1727,6 +1759,7 @@
                     "Icube\\CashbackGraphQl\\": "src/module-cashback-graph-ql",
                     "Icube\\CatalogGraphQl\\": "src/module-catalog-graph-ql",
                     "Icube\\CustomerDownloadableGraphQl\\": "src/module-customer-downloadable-graph-ql",
+                    "Icube\\CustomerGraphQl\\": "src/module-customer-graph-ql",
                     "Icube\\OrderCommentGraphQl\\": "src/module-order-comment-graph-ql",
                     "Icube\\CityRegionGraphQl\\": "src/module-city-region-graph-ql",
                     "Icube\\ContactUsGraphQl\\": "src/module-contact-us-graph-ql",
@@ -1756,6 +1789,7 @@
                     "Icube\\MagezonGraphql\\": "src/module-magezon-graph-ql",
                     "Icube\\CmsGraphQl\\": "src/module-cms-graph-ql",
                     "Icube\\WeltPixelCmsBlockSchedulerGraphQl\\": "src/module-wp-cms-block-scheduler-graph-ql",
+                    "Icube\\WeltPixelThankYouPageGraphQl\\": "src/module-wp-thankyou-page-graph-ql",
                     "Icube\\WeltPixelSmartProductTabsGraphQl\\": "src/module-wp-smart-product-tabs-graph-ql"
                 }
             },
@@ -1775,7 +1809,7 @@
                 "magento",
                 "magento2"
             ],
-            "time": "2021-06-28T11:36:20+00:00"
+            "time": "2021-07-22T10:31:25+00:00"
         },
         {
             "name": "icubeus/magento2-indonesianlanguage",
@@ -1852,11 +1886,11 @@
         },
         {
             "name": "icubeus/magento2-notification",
-            "version": "3.5.3",
+            "version": "3.5.4",
             "source": {
                 "type": "git",
                 "url": "git@github.com:icubeus/magento2-notification.git",
-                "reference": "64690f231b9dfae8ce3edc2e0eca3c673b3c5a95"
+                "reference": "79fc553ee84de089ba3492a1f90302d84124a726"
             },
             "require": {
                 "icubeus/magento2-smsgateaway": "^3.5"
@@ -1895,15 +1929,15 @@
                 "magento",
                 "magento2"
             ],
-            "time": "2021-05-11T07:21:50+00:00"
+            "time": "2021-07-19T10:49:23+00:00"
         },
         {
             "name": "icubeus/magento2-payment",
-            "version": "3.5.2",
+            "version": "3.5.3",
             "source": {
                 "type": "git",
                 "url": "git@github.com:icubeus/magento2-payment.git",
-                "reference": "78d211a8d68abce70fe22d05c22daa9d030d604b"
+                "reference": "d0d0414b6530a2f765115e39fb84879174b09f6d"
             },
             "replace": {
                 "icubeus/module-ipay88": "self.version"
@@ -1943,7 +1977,7 @@
                 "veritrans",
                 "vt-direct"
             ],
-            "time": "2021-03-30T07:31:47+00:00"
+            "time": "2021-07-22T10:26:21+00:00"
         },
         {
             "name": "icubeus/magento2-queues",
@@ -2070,11 +2104,11 @@
         },
         {
             "name": "icubeus/magento2-shippingshipper",
-            "version": "3.5.2",
+            "version": "3.5.3",
             "source": {
                 "type": "git",
                 "url": "git@github.com:icubeus/magento2-shippingshipper.git",
-                "reference": "ba959de56220ad6269165508532a55e96f306ebb"
+                "reference": "4ae2980a70b6637ec1bda34d6ffba3c727ec5712"
             },
             "require": {
                 "icubeus/magento2-shippingbase": "^3.5"
@@ -2107,7 +2141,7 @@
                 "magento",
                 "magento2"
             ],
-            "time": "2021-05-31T01:20:37+00:00"
+            "time": "2021-07-21T08:54:12+00:00"
         },
         {
             "name": "icubeus/magento2-smsgateaway",
@@ -2158,11 +2192,11 @@
         },
         {
             "name": "icubeus/magento2-smstada",
-            "version": "3.5.1",
+            "version": "3.5.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:icubeus/magento2-smstada.git",
-                "reference": "2953bd5fffd5ebcec509c4909fd80f337490d5d2"
+                "reference": "2cd312095d3fa04075080c3b1caa58c4418f4e2c"
             },
             "require": {
                 "icubeus/magento2-smsgateaway": "^3.5"
@@ -2201,7 +2235,7 @@
                 "magento",
                 "magento2"
             ],
-            "time": "2021-04-15T07:59:04+00:00"
+            "time": "2021-07-21T09:03:33+00:00"
         },
         {
             "name": "icubeus/magento2-swiftomschannel",
@@ -2294,11 +2328,11 @@
         },
         {
             "name": "icubeus/magento2-veritranspayment",
-            "version": "3.5.3",
+            "version": "3.5.4",
             "source": {
                 "type": "git",
                 "url": "git@github.com:icubeus/magento2-veritranspayment.git",
-                "reference": "b0c77ae995742bb60778de937ffe080754f8a52e"
+                "reference": "7add3446759e28b25cefc4463c60138b28d261cd"
             },
             "replace": {
                 "icubeus/module-snap": "self.version",
@@ -2347,7 +2381,7 @@
                 "veritrans",
                 "vt-direct"
             ],
-            "time": "2021-05-28T07:17:58+00:00"
+            "time": "2021-07-22T10:15:50+00:00"
         },
         {
             "name": "justinrainbow/json-schema",
