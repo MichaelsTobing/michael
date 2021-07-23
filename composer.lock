@@ -1542,11 +1542,11 @@
         },
         {
             "name": "icubeus/magento2-citykecamatan",
-            "version": "3.5.1",
+            "version": "3.5.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:icubeus/magento2-citykecamatan.git",
-                "reference": "b78dde217a0076b949354e7ceef849602ec8c0af"
+                "reference": "1a317368fd74fb6baf57bfcddac0c757eb2c7ce9"
             },
             "type": "magento2-module",
             "autoload": {
@@ -1567,7 +1567,7 @@
                 "kecamatan",
                 "magento 2"
             ],
-            "time": "2021-03-26T08:45:22+00:00"
+            "time": "2021-07-21T08:36:47+00:00"
         },
         {
             "name": "icubeus/magento2-confirmpayment",
