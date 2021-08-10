@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e48b706e5f38ab5bf1994b770fbbc8f0",
+    "content-hash": "431e82902f01e7fd6ea69ce7eff380a3",
     "packages": [
         {
             "name": "astock/stock-api-libphp",
@@ -1396,11 +1396,11 @@
         },
         {
             "name": "icubebysirclo/magento2-facebookshop",
-            "version": "4.0.0",
+            "version": "4.0.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:icubebysirclo/magento2-facebookshop.git",
-                "reference": "21393380ccc6025876559013b6862988f490ddd7"
+                "reference": "258602574458aa5d2df631d7a69a38825a91ee90"
             },
             "type": "magento2-module",
             "autoload": {
@@ -1420,7 +1420,7 @@
                 "facebookshop",
                 "magento 2"
             ],
-            "time": "2021-07-21T09:40:04+00:00"
+            "time": "2021-08-05T14:02:24+00:00"
         },
         {
             "name": "icubebysirclo/magento2-firebear",
@@ -1464,6 +1464,78 @@
             "time": "2021-03-23T09:59:03+00:00"
         },
         {
+            "name": "icubebysirclo/magento2-shippinglogistix",
+            "version": "4.0.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:icubebysirclo/magento2-shippinglogistix.git",
+                "reference": "2a6d0b178324ecb019bc44eb81ce480c399c02ee"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Icube\\Logistix\\": ""
+                }
+            },
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "Sirclo Logistix Integration for Magento",
+            "keywords": [
+                "magento 2",
+                "shippinglogistix"
+            ],
+            "time": "2021-08-04T03:05:26+00:00"
+        },
+        {
+            "name": "icubebysirclo/magento2-xendit",
+            "version": "4.0.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:icubebysirclo/magento2-xendit.git",
+                "reference": "b25082039b4f6a0642a96a621a5b8ec8b3127e4a"
+            },
+            "replace": {
+                "icubebysirclo/module-xendit": "self.version",
+                "icubebysirclo/module-xendit-graph-ql": "self.version",
+                "icubebysirclo/xendit": "self.version"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "src/module-m2invoice/registration.php",
+                    "src/module-xendit/registration.php",
+                    "src/module-xendit-graph-ql/registration.php"
+                ],
+                "psr-4": {
+                    "Xendit\\M2Invoice\\": "src/module-m2invoice",
+                    "Icube\\Xendit\\": "src/module-xendit",
+                    "Icube\\XenditGraphQl\\": "src/module-xendit-graph-ql"
+                }
+            },
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "icubebysirclo",
+                    "email": "sales@icube.us"
+                }
+            ],
+            "description": "Icube Xendit Payment",
+            "homepage": "https://github.com/icubebysirclo/xendit",
+            "keywords": [
+                "magento",
+                "magento2"
+            ],
+            "time": "2021-08-10T07:01:40+00:00"
+        },
+        {
             "name": "icubeus/magento2-advancerate",
             "version": "3.5.3",
             "source": {
@@ -1493,11 +1565,11 @@
         },
         {
             "name": "icubeus/magento2-checkout",
-            "version": "3.5.4",
+            "version": "3.5.6",
             "source": {
                 "type": "git",
                 "url": "git@github.com:icubeus/magento2-checkout.git",
-                "reference": "9c0830bae8c1bc0269bafa05d54c7bb5561c3159"
+                "reference": "306932e18fb8a3572b59405ab40860bd0e5ac692"
             },
             "replace": {
                 "icubeus/module-checkoutpg": "self.version",
@@ -1538,7 +1610,7 @@
                 "magento",
                 "magento2"
             ],
-            "time": "2021-07-21T09:46:01+00:00"
+            "time": "2021-08-10T04:57:39+00:00"
         },
         {
             "name": "icubeus/magento2-citykecamatan",
@@ -1644,11 +1716,11 @@
         },
         {
             "name": "icubeus/magento2-graphql",
-            "version": "3.5.11",
+            "version": "3.5.12",
             "source": {
                 "type": "git",
                 "url": "git@github.com:icubeus/magento2-graphql.git",
-                "reference": "e298d9af99b39e1bd4d1b636c1810e5a7f9501ec"
+                "reference": "88f3f2463d5d257d6c3fea6a8458a8965000c338"
             },
             "require": {
                 "icubeus/magento2-citykecamatan": "^3.5",
@@ -1809,7 +1881,7 @@
                 "magento",
                 "magento2"
             ],
-            "time": "2021-07-22T10:31:25+00:00"
+            "time": "2021-08-10T04:53:35+00:00"
         },
         {
             "name": "icubeus/magento2-indonesianlanguage",
@@ -2192,11 +2264,11 @@
         },
         {
             "name": "icubeus/magento2-smstada",
-            "version": "3.5.2",
+            "version": "3.5.3",
             "source": {
                 "type": "git",
                 "url": "git@github.com:icubeus/magento2-smstada.git",
-                "reference": "2cd312095d3fa04075080c3b1caa58c4418f4e2c"
+                "reference": "0e77b35624914ea0013471d65ef65fec7c57b9a3"
             },
             "require": {
                 "icubeus/magento2-smsgateaway": "^3.5"
@@ -2235,15 +2307,15 @@
                 "magento",
                 "magento2"
             ],
-            "time": "2021-07-21T09:03:33+00:00"
+            "time": "2021-08-10T06:31:34+00:00"
         },
         {
             "name": "icubeus/magento2-swiftomschannel",
-            "version": "3.5.3",
+            "version": "3.5.4",
             "source": {
                 "type": "git",
                 "url": "git@github.com:icubeus/magento2-swiftomschannel.git",
-                "reference": "3bc9fc83060adf9f4c3bbb70c2848a43aa198a00"
+                "reference": "d07eb8db825be2d50bfbc260fba4c45cda3475f7"
             },
             "replace": {
                 "icubeus/module-autoinvoice": "self.version",
@@ -2296,15 +2368,15 @@
                 "magento2",
                 "swift"
             ],
-            "time": "2021-06-30T10:42:16+00:00"
+            "time": "2021-08-06T01:56:56+00:00"
         },
         {
             "name": "icubeus/magento2-trackorder",
-            "version": "3.5.1",
+            "version": "3.5.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:icubeus/magento2-trackorder.git",
-                "reference": "9708d87356e139aa27ddfbaf948cca74987d4e1d"
+                "reference": "cd604d56b34998e81a3a65d5f49389e6da289a69"
             },
             "type": "magento2-module",
             "autoload": {
@@ -2324,7 +2396,7 @@
                 "magento 2",
                 "trackorder"
             ],
-            "time": "2021-06-30T10:36:34+00:00"
+            "time": "2021-08-06T01:47:55+00:00"
         },
         {
             "name": "icubeus/magento2-veritranspayment",
@@ -19599,7 +19671,6 @@
             ],
             "description": "Provides a list of PHP built-in functions that operate on resources",
             "homepage": "https://www.github.com/sebastianbergmann/resource-operations",
-            "abandoned": true,
             "time": "2015-07-28T20:34:47+00:00"
         },
         {
