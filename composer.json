@@ -33,7 +33,7 @@
         "icubeus/magento2-queues": "^3.5",
         "icubeus/magento2-veritranspayment": "^3.5",
         "icubeus/magento2-graphql": "^3.5",
-        "icubebysirclo/magento2-firebear": "dev-master",
+        "icubebysirclo/magento2-firebear": "^4.0",
         "icubeus/magento2-firebase": "^3.5",
         "icubebysirclo/magento2-facebookshop": "^4.0",
         "icubebysirclo/magento2-xendit": "^4.0",

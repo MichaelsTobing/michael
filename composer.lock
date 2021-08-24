@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "431e82902f01e7fd6ea69ce7eff380a3",
+    "content-hash": "617eed716021b6a78afcf169c6fa0a58",
     "packages": [
         {
             "name": "astock/stock-api-libphp",
@@ -1424,11 +1424,11 @@
         },
         {
             "name": "icubebysirclo/magento2-firebear",
-            "version": "dev-master",
+            "version": "4.0.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:icubebysirclo/magento2-firebear.git",
-                "reference": "2039231acef1db1969cc869ec4dd28102ecf865c"
+                "reference": "f6aa69ebd6d5a69685edcfe3a9b90b615e3842fd"
             },
             "replace": {
                 "icubebysirclo/magento2-firebear": "self.version",
@@ -1461,7 +1461,7 @@
                 "magento",
                 "magento2"
             ],
-            "time": "2021-03-23T09:59:03+00:00"
+            "time": "2021-08-20T08:37:58+00:00"
         },
         {
             "name": "icubebysirclo/magento2-shippinglogistix",
@@ -1565,11 +1565,11 @@
         },
         {
             "name": "icubeus/magento2-checkout",
-            "version": "3.5.6",
+            "version": "3.5.7",
             "source": {
                 "type": "git",
                 "url": "git@github.com:icubeus/magento2-checkout.git",
-                "reference": "306932e18fb8a3572b59405ab40860bd0e5ac692"
+                "reference": "39e481f88cd1839fdd8763332395edaf077fffef"
             },
             "replace": {
                 "icubeus/module-checkoutpg": "self.version",
@@ -1610,7 +1610,7 @@
                 "magento",
                 "magento2"
             ],
-            "time": "2021-08-10T04:57:39+00:00"
+            "time": "2021-08-23T11:06:51+00:00"
         },
         {
             "name": "icubeus/magento2-citykecamatan",
@@ -1716,11 +1716,11 @@
         },
         {
             "name": "icubeus/magento2-graphql",
-            "version": "3.5.12",
+            "version": "3.5.13",
             "source": {
                 "type": "git",
                 "url": "git@github.com:icubeus/magento2-graphql.git",
-                "reference": "88f3f2463d5d257d6c3fea6a8458a8965000c338"
+                "reference": "99b6496063eb2d484b3611ecdf49f407f7ee633e"
             },
             "require": {
                 "icubeus/magento2-citykecamatan": "^3.5",
@@ -1881,7 +1881,7 @@
                 "magento",
                 "magento2"
             ],
-            "time": "2021-08-10T04:53:35+00:00"
+            "time": "2021-08-24T03:53:31+00:00"
         },
         {
             "name": "icubeus/magento2-indonesianlanguage",
@@ -1911,11 +1911,11 @@
         },
         {
             "name": "icubeus/magento2-instantdelivery",
-            "version": "3.5.2",
+            "version": "3.5.3",
             "source": {
                 "type": "git",
                 "url": "git@github.com:icubeus/magento2-instantdelivery.git",
-                "reference": "cee24409e51eba159441af0b9737a3a423b889aa"
+                "reference": "eb5bb1925e48cdb38f8df0eed2f204d73a277bd0"
             },
             "replace": {
                 "icubeus/magento2-gosend": "self.version",
@@ -1954,7 +1954,7 @@
                 "pinlocation",
                 "shipping"
             ],
-            "time": "2021-04-28T03:08:29+00:00"
+            "time": "2021-08-23T11:53:17+00:00"
         },
         {
             "name": "icubeus/magento2-notification",
@@ -2176,11 +2176,11 @@
         },
         {
             "name": "icubeus/magento2-shippingshipper",
-            "version": "3.5.3",
+            "version": "3.5.4",
             "source": {
                 "type": "git",
                 "url": "git@github.com:icubeus/magento2-shippingshipper.git",
-                "reference": "4ae2980a70b6637ec1bda34d6ffba3c727ec5712"
+                "reference": "0b47f4ede0ec80a659d9a66f0456f2dedcc54539"
             },
             "require": {
                 "icubeus/magento2-shippingbase": "^3.5"
@@ -2213,7 +2213,7 @@
                 "magento",
                 "magento2"
             ],
-            "time": "2021-07-21T08:54:12+00:00"
+            "time": "2021-08-23T11:45:05+00:00"
         },
         {
             "name": "icubeus/magento2-smsgateaway",
@@ -2311,11 +2311,11 @@
         },
         {
             "name": "icubeus/magento2-swiftomschannel",
-            "version": "3.5.4",
+            "version": "3.5.5",
             "source": {
                 "type": "git",
                 "url": "git@github.com:icubeus/magento2-swiftomschannel.git",
-                "reference": "d07eb8db825be2d50bfbc260fba4c45cda3475f7"
+                "reference": "9ba193b0739f78ac4cbeb0d5e049443f8489b1d7"
             },
             "replace": {
                 "icubeus/module-autoinvoice": "self.version",
@@ -2368,15 +2368,15 @@
                 "magento2",
                 "swift"
             ],
-            "time": "2021-08-06T01:56:56+00:00"
+            "time": "2021-08-23T11:17:39+00:00"
         },
         {
             "name": "icubeus/magento2-trackorder",
-            "version": "3.5.2",
+            "version": "3.5.3",
             "source": {
                 "type": "git",
                 "url": "git@github.com:icubeus/magento2-trackorder.git",
-                "reference": "cd604d56b34998e81a3a65d5f49389e6da289a69"
+                "reference": "9080a2f823dcea6736848459a630dba3bcb8cac4"
             },
             "type": "magento2-module",
             "autoload": {
@@ -2396,7 +2396,7 @@
                 "magento 2",
                 "trackorder"
             ],
-            "time": "2021-08-06T01:47:55+00:00"
+            "time": "2021-08-23T11:14:45+00:00"
         },
         {
             "name": "icubeus/magento2-veritranspayment",
@@ -20201,7 +20201,6 @@
     "minimum-stability": "alpha",
     "stability-flags": {
         "composer/composer": 15,
-        "icubebysirclo/magento2-firebear": 20,
         "phpmd/phpmd": 0
     },
     "prefer-stable": true,
