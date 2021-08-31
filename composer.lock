@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "617eed716021b6a78afcf169c6fa0a58",
+    "content-hash": "ebba450bebc57a859d4a348702aafaec",
     "packages": [
         {
             "name": "astock/stock-api-libphp",
@@ -1493,11 +1493,11 @@
         },
         {
             "name": "icubebysirclo/magento2-xendit",
-            "version": "4.0.0",
+            "version": "4.0.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:icubebysirclo/magento2-xendit.git",
-                "reference": "b25082039b4f6a0642a96a621a5b8ec8b3127e4a"
+                "reference": "4e0a3fdcbf4c4bc1068801b9fa2d023292a09b26"
             },
             "replace": {
                 "icubebysirclo/module-xendit": "self.version",
@@ -1533,7 +1533,7 @@
                 "magento",
                 "magento2"
             ],
-            "time": "2021-08-10T07:01:40+00:00"
+            "time": "2021-08-31T07:55:13+00:00"
         },
         {
             "name": "icubeus/magento2-advancerate",
@@ -1565,11 +1565,11 @@
         },
         {
             "name": "icubeus/magento2-checkout",
-            "version": "3.5.7",
+            "version": "3.5.8",
             "source": {
                 "type": "git",
                 "url": "git@github.com:icubeus/magento2-checkout.git",
-                "reference": "39e481f88cd1839fdd8763332395edaf077fffef"
+                "reference": "17d5fc3bd68669802760a343f22211b2f0524100"
             },
             "replace": {
                 "icubeus/module-checkoutpg": "self.version",
@@ -1610,7 +1610,7 @@
                 "magento",
                 "magento2"
             ],
-            "time": "2021-08-23T11:06:51+00:00"
+            "time": "2021-08-31T09:39:50+00:00"
         },
         {
             "name": "icubeus/magento2-citykecamatan",
@@ -1958,11 +1958,11 @@
         },
         {
             "name": "icubeus/magento2-notification",
-            "version": "3.5.4",
+            "version": "3.5.5",
             "source": {
                 "type": "git",
                 "url": "git@github.com:icubeus/magento2-notification.git",
-                "reference": "79fc553ee84de089ba3492a1f90302d84124a726"
+                "reference": "7dc6f91b26fe89bacc66ec1c14850068e409e677"
             },
             "require": {
                 "icubeus/magento2-smsgateaway": "^3.5"
@@ -2001,7 +2001,7 @@
                 "magento",
                 "magento2"
             ],
-            "time": "2021-07-19T10:49:23+00:00"
+            "time": "2021-08-30T11:14:21+00:00"
         },
         {
             "name": "icubeus/magento2-payment",
@@ -2176,11 +2176,11 @@
         },
         {
             "name": "icubeus/magento2-shippingshipper",
-            "version": "3.5.4",
+            "version": "3.5.5",
             "source": {
                 "type": "git",
                 "url": "git@github.com:icubeus/magento2-shippingshipper.git",
-                "reference": "0b47f4ede0ec80a659d9a66f0456f2dedcc54539"
+                "reference": "70ded96b42372a503bc9778e90d060f889a344fb"
             },
             "require": {
                 "icubeus/magento2-shippingbase": "^3.5"
@@ -2213,7 +2213,7 @@
                 "magento",
                 "magento2"
             ],
-            "time": "2021-08-23T11:45:05+00:00"
+            "time": "2021-08-31T08:02:03+00:00"
         },
         {
             "name": "icubeus/magento2-smsgateaway",
@@ -2311,11 +2311,11 @@
         },
         {
             "name": "icubeus/magento2-swiftomschannel",
-            "version": "3.5.5",
+            "version": "3.5.6",
             "source": {
                 "type": "git",
                 "url": "git@github.com:icubeus/magento2-swiftomschannel.git",
-                "reference": "9ba193b0739f78ac4cbeb0d5e049443f8489b1d7"
+                "reference": "98f81340319cd52c986ebc0a746e1b097e0fb3ed"
             },
             "replace": {
                 "icubeus/module-autoinvoice": "self.version",
@@ -2368,7 +2368,7 @@
                 "magento2",
                 "swift"
             ],
-            "time": "2021-08-23T11:17:39+00:00"
+            "time": "2021-08-24T07:41:52+00:00"
         },
         {
             "name": "icubeus/magento2-trackorder",
