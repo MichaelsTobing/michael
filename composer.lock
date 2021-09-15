@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ebba450bebc57a859d4a348702aafaec",
+    "content-hash": "163e15a6a86904a849aced1a74dfc60c",
     "packages": [
         {
             "name": "astock/stock-api-libphp",
@@ -1465,11 +1465,11 @@
         },
         {
             "name": "icubebysirclo/magento2-shippinglogistix",
-            "version": "4.0.0",
+            "version": "4.0.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:icubebysirclo/magento2-shippinglogistix.git",
-                "reference": "2a6d0b178324ecb019bc44eb81ce480c399c02ee"
+                "reference": "8916d1433efdf3d343cd756eedc9136648490873"
             },
             "type": "magento2-module",
             "autoload": {
@@ -1489,15 +1489,15 @@
                 "magento 2",
                 "shippinglogistix"
             ],
-            "time": "2021-08-04T03:05:26+00:00"
+            "time": "2021-09-14T08:39:05+00:00"
         },
         {
             "name": "icubebysirclo/magento2-xendit",
-            "version": "4.0.1",
+            "version": "4.0.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:icubebysirclo/magento2-xendit.git",
-                "reference": "4e0a3fdcbf4c4bc1068801b9fa2d023292a09b26"
+                "reference": "b01ab36a4914ca25f016d811531bc6d0efc77ba7"
             },
             "replace": {
                 "icubebysirclo/module-xendit": "self.version",
@@ -1533,7 +1533,7 @@
                 "magento",
                 "magento2"
             ],
-            "time": "2021-08-31T07:55:13+00:00"
+            "time": "2021-09-14T10:02:05+00:00"
         },
         {
             "name": "icubeus/magento2-advancerate",
@@ -1614,11 +1614,11 @@
         },
         {
             "name": "icubeus/magento2-citykecamatan",
-            "version": "3.5.2",
+            "version": "3.5.3",
             "source": {
                 "type": "git",
                 "url": "git@github.com:icubeus/magento2-citykecamatan.git",
-                "reference": "1a317368fd74fb6baf57bfcddac0c757eb2c7ce9"
+                "reference": "f2430a6c3e2475aa1a0d9b97b91f8a7c692a2c10"
             },
             "type": "magento2-module",
             "autoload": {
@@ -1639,7 +1639,7 @@
                 "kecamatan",
                 "magento 2"
             ],
-            "time": "2021-07-21T08:36:47+00:00"
+            "time": "2021-09-14T08:14:13+00:00"
         },
         {
             "name": "icubeus/magento2-confirmpayment",
@@ -1716,11 +1716,11 @@
         },
         {
             "name": "icubeus/magento2-graphql",
-            "version": "3.5.13",
+            "version": "3.5.14",
             "source": {
                 "type": "git",
                 "url": "git@github.com:icubeus/magento2-graphql.git",
-                "reference": "99b6496063eb2d484b3611ecdf49f407f7ee633e"
+                "reference": "fc3e7eeb279b0936c2fa9af0aa2ac4ba049865eb"
             },
             "require": {
                 "icubeus/magento2-citykecamatan": "^3.5",
@@ -1881,7 +1881,7 @@
                 "magento",
                 "magento2"
             ],
-            "time": "2021-08-24T03:53:31+00:00"
+            "time": "2021-09-15T10:23:17+00:00"
         },
         {
             "name": "icubeus/magento2-indonesianlanguage",
@@ -2176,11 +2176,11 @@
         },
         {
             "name": "icubeus/magento2-shippingshipper",
-            "version": "3.5.5",
+            "version": "3.5.6",
             "source": {
                 "type": "git",
                 "url": "git@github.com:icubeus/magento2-shippingshipper.git",
-                "reference": "70ded96b42372a503bc9778e90d060f889a344fb"
+                "reference": "e05eff6ba5777c97f6468c14634654b5799e31b4"
             },
             "require": {
                 "icubeus/magento2-shippingbase": "^3.5"
@@ -2213,7 +2213,7 @@
                 "magento",
                 "magento2"
             ],
-            "time": "2021-08-31T08:02:03+00:00"
+            "time": "2021-09-14T08:32:07+00:00"
         },
         {
             "name": "icubeus/magento2-smsgateaway",
