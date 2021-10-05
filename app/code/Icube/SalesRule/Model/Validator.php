@@ -10,7 +10,6 @@ use Magento\Framework\App\ObjectManager;
 use Magento\Quote\Model\Quote;
 use Magento\Quote\Model\Quote\Address;
 use Magento\Quote\Model\Quote\Item\AbstractItem;
-use Magento\SalesRule\Helper\CartFixedDiscount;
 use Magento\SalesRule\Model\ResourceModel\Rule\CollectionFactory;
 
 /**
@@ -102,11 +101,6 @@ class Validator extends \Magento\SalesRule\Model\Validator
     protected $counter = 0;
 
     /**
-     * @var CartFixedDiscount
-     */
-    private $cartFixedDiscountHelper;
-
-    /**
      * @param \Magento\Framework\Model\Context $context
      * @param \Magento\Framework\Registry $registry
      * @param CollectionFactory $collectionFactory
@@ -119,7 +113,6 @@ class Validator extends \Magento\SalesRule\Model\Validator
      * @param \Magento\Framework\Model\ResourceModel\AbstractResource $resource
      * @param \Magento\Framework\Data\Collection\AbstractDb $resourceCollection
      * @param array $data
-     * @param CartFixedDiscount|null $cartFixedDiscount
      * @SuppressWarnings(PHPMD.ExcessiveParameterList)
      */
     public function __construct(
@@ -134,8 +127,7 @@ class Validator extends \Magento\SalesRule\Model\Validator
         \Magento\Framework\Message\ManagerInterface $messageManager,
         \Magento\Framework\Model\ResourceModel\AbstractResource $resource = null,
         \Magento\Framework\Data\Collection\AbstractDb $resourceCollection = null,
-        array $data = [],
-        ?CartFixedDiscount $cartFixedDiscount = null
+        array $data = []
     ) {
         $this->_collectionFactory = $collectionFactory;
         $this->_catalogData = $catalogData;
@@ -144,8 +136,6 @@ class Validator extends \Magento\SalesRule\Model\Validator
         $this->priceCurrency = $priceCurrency;
         $this->validators = $validators;
         $this->messageManager = $messageManager;
-        $this->cartFixedDiscountHelper = $cartFixedDiscount ?:
-            ObjectManager::getInstance()->get(CartFixedDiscount::class);
     }
 
     
