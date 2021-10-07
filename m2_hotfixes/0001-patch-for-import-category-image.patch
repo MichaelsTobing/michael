@@ -1,0 +1,73 @@
+From bae041d1619a6317f284b30ec17fd39aef5e5482 Mon Sep 17 00:00:00 2001
+From: Hanif Rizal <hanif@icube.us>
+Date: Mon, 31 Aug 2020 07:14:15 +0000
+Subject: [PATCH] patch for import category image
+
+---
+ .../Category/Attribute/Backend/Image.php      | 31 ++-----------------
+ 1 file changed, 2 insertions(+), 29 deletions(-)
+
+diff --git a/vendor/magento/module-catalog/Model/Category/Attribute/Backend/Image.php b/vendor/magento/module-catalog/Model/Category/Attribute/Backend/Image.php
+index ae5727a90..5a89d0b1e 100644
+--- a/vendor/magento/module-catalog/Model/Category/Attribute/Backend/Image.php
++++ b/vendor/magento/module-catalog/Model/Category/Attribute/Backend/Image.php
+@@ -103,26 +103,6 @@ class Image extends \Magento\Eav\Model\Entity\Attribute\Backend\AbstractBackend
+         return '';
+     }
+ 
+-    /**
+-     * Check that image name exists in catalog/category directory and return new image name if it already exists.
+-     *
+-     * @param string $imageName
+-     * @return string
+-     * @throws \Magento\Framework\Exception\FileSystemException
+-     */
+-    private function checkUniqueImageName(string $imageName): string
+-    {
+-        $mediaDirectory = $this->_filesystem->getDirectoryWrite(DirectoryList::MEDIA);
+-        $imageAbsolutePath = $mediaDirectory->getAbsolutePath(
+-            $this->imageUploader->getBasePath() . DIRECTORY_SEPARATOR . $imageName
+-        );
+-
+-        // phpcs:ignore Magento2.Functions.DiscouragedFunction
+-        $imageName = call_user_func([Uploader::class, 'getNewFilename'], $imageAbsolutePath);
+-
+-        return $imageName;
+-    }
+-
+     /**
+      * Avoiding saving potential upload data to DB.
+      *
+@@ -151,15 +131,10 @@ class Image extends \Magento\Eav\Model\Entity\Attribute\Backend\AbstractBackend
+             }
+         } elseif ($this->fileResidesOutsideCategoryDir($value)) {
+             // use relative path for image attribute so we know it's outside of category dir when we fetch it
+-            // phpcs:ignore Magento2.Functions.DiscouragedFunction
+-            $value[0]['url'] = parse_url($value[0]['url'], PHP_URL_PATH);
+             $value[0]['name'] = $value[0]['url'];
+         }
+ 
+         if ($imageName = $this->getUploadedImageName($value)) {
+-            if (!$this->fileResidesOutsideCategoryDir($value)) {
+-                $imageName = $this->checkUniqueImageName($imageName);
+-            }
+             $object->setData($this->additionalData . $attributeName, $value);
+             $object->setData($attributeName, $imageName);
+         } elseif (!is_string($value)) {
+@@ -195,11 +170,9 @@ class Image extends \Magento\Eav\Model\Entity\Attribute\Backend\AbstractBackend
+         $fileUrl = ltrim($value[0]['url'], '/');
+         $baseMediaDir = $this->_filesystem->getUri(DirectoryList::MEDIA);
+ 
+-        if (!$baseMediaDir) {
+-            return false;
+-        }
++        $usingPathRelativeToBase = strpos($fileUrl, $baseMediaDir) === 0;
+ 
+-        return strpos($fileUrl, $baseMediaDir) !== false;
++        return $usingPathRelativeToBase;
+     }
+ 
+     /**
+-- 
+2.20.1
+
