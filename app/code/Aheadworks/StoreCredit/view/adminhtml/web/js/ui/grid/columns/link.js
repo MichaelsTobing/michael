@@ -1,0 +1,30 @@
+define([
+    'Magento_Ui/js/grid/columns/column'
+], function (Component) {
+    'use strict';
+
+    return Component.extend({
+        defaults: {
+            bodyTmpl: 'Aheadworks_StoreCredit/ui/grid/cells/link'
+        },
+        
+        /**
+         * Retrieve link rows
+         * 
+         * @returns {Array}
+         */
+        getLinkRows: function (record) {
+            if (record[this.index] && !Array.isArray(record[this.index])) {
+                return [record[this.index]];
+            }
+            return record[this.index];
+        },
+
+        /**
+         * @inheritDoc
+         */
+        hasFieldAction: function () {
+            return false;
+        }
+    });
+});

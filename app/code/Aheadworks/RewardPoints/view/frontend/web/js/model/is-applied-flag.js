@@ -1,0 +1,13 @@
+define(
+    [
+        'ko',
+        'Magento_Checkout/js/model/totals'
+    ],
+    function (ko, totals) {
+        'use strict';
+
+        var rewardPoints = totals.getSegment('aw_reward_points');
+
+        return ko.observable(rewardPoints != null && rewardPoints.value != 0);
+    }
+);
